@@ -1,0 +1,15 @@
+# Python and local environment files
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Credentials, if accidentally copied into this repository
+.kube/
+*.kubeconfig
+.env
+
+# Machine-specific helpers and cleanup records
+/rebalancing-latency-experiment-artifacts/*/run-env.sh
+/rebalancing-latency-experiment-artifacts/*/cleanup-*
