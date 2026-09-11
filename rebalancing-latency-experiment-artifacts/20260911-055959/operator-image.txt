@@ -1,0 +1,1 @@
+docker.io/satyams17/redis-operator@sha256:e2ac291db3f3959ece78d6170bfc1720c2e35d92b6983c2f40611b460b94bd91

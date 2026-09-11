@@ -1,0 +1,43 @@
+{
+  "Read" : {
+    "Mean(ms)" : "0.3802428370845092",
+    "99.9Percentile(ms)" : "7.963",
+    "MinValue(ms)" : "0.229",
+    "StdDeviation(ms)" : "0.650655927520185",
+    "MaxValue(ms)" : "54.527",
+    "99.99Percentile(ms)" : "26.943",
+    "Count" : "143866",
+    "95Percentile(ms)" : "0.445",
+    "90Percentile(ms)" : "0.41",
+    "99Percentile(ms)" : "0.972"
+  },
+  "Update" : {
+    "Mean(ms)" : "0.45996582166380695",
+    "99.9Percentile(ms)" : "8.075",
+    "MinValue(ms)" : "0.281",
+    "StdDeviation(ms)" : "0.8329784518890632",
+    "MaxValue(ms)" : "63.679",
+    "99.99Percentile(ms)" : "37.951",
+    "Count" : "36134",
+    "95Percentile(ms)" : "0.54",
+    "90Percentile(ms)" : "0.474",
+    "99Percentile(ms)" : "1.173"
+  },
+  "ALL" : {
+    "Mean(ms)" : "0.39624678333333335",
+    "99.9Percentile(ms)" : "7.967",
+    "MinValue(ms)" : "0.229",
+    "StdDeviation(ms)" : "0.6918628891166769",
+    "MaxValue(ms)" : "63.679",
+    "99.99Percentile(ms)" : "27.343",
+    "Count" : "180000",
+    "95Percentile(ms)" : "0.471",
+    "90Percentile(ms)" : "0.432",
+    "99Percentile(ms)" : "1.041"
+  },
+  "Overall" : {
+    "RunTime(ms)" : "120005.0",
+    "Throughput(ops/sec)" : "2000.0130033656496"
+  },
+  "JobID" : "1789107894232-100962120-0"
+}

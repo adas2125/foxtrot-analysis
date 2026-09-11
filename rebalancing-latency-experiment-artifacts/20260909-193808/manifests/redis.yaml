@@ -1,0 +1,21 @@
+apiVersion: cache.example.com/v1
+kind: RedisCluster
+metadata:
+  name: redis-20260909-193808
+  namespace: foxtrot-rebalance-20260909-193808
+spec:
+  masters: 3
+  minMasters: 3
+  replicasPerMaster: 1
+  redisVersion: "7.2"
+  existingCluster: false
+  manageStatefulSet: true
+  autoScaleEnabled: false
+  cpuThreshold: 60
+  cpuThresholdLow: 1
+  memoryThreshold: 70
+  memoryThresholdLow: 30
+  reshardTimeoutSeconds: 600
+  scaleCooldownSeconds: 3600
+  prometheusURL: http://prometheus-operated.monitoring.svc:9090
+  metricsQueryInterval: 15

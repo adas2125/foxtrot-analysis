@@ -1,0 +1,31 @@
+{
+  "JobID" : "1788983665108-10096230-0",
+  "Overall" : {
+    "RunTime(ms)" : "500006.0",
+    "Throughput(ops/sec)" : "2000.0015974161306"
+  },
+  "Insert" : {
+    "Mean(ms)" : "0.484224808",
+    "99.9Percentile(ms)" : "17.055",
+    "MinValue(ms)" : "0.262",
+    "StdDeviation(ms)" : "1.1103226815477394",
+    "MaxValue(ms)" : "236.927",
+    "99.99Percentile(ms)" : "32.735",
+    "Count" : "1000000",
+    "95Percentile(ms)" : "0.575",
+    "90Percentile(ms)" : "0.464",
+    "99Percentile(ms)" : "3.431"
+  },
+  "ALL" : {
+    "Mean(ms)" : "0.484224808",
+    "99.9Percentile(ms)" : "17.055",
+    "MinValue(ms)" : "0.262",
+    "StdDeviation(ms)" : "1.1103226815477394",
+    "MaxValue(ms)" : "236.927",
+    "99.99Percentile(ms)" : "32.735",
+    "Count" : "1000000",
+    "95Percentile(ms)" : "0.575",
+    "90Percentile(ms)" : "0.464",
+    "99Percentile(ms)" : "3.431"
+  }
+}

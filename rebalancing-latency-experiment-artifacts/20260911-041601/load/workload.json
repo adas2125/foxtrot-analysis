@@ -1,0 +1,53 @@
+{
+  "jobID" : "1789101132438-100962201-0",
+  "batchname" : "load-20260911-041601",
+  "workload" : "CoreWorkload",
+  "dbname" : "de.unihamburg.informatik.nosqlmark.db.RedisClusterClient",
+  "dbproperties" : {
+    "redis.seeds" : "redis-20260911-041601-0.redis-20260911-041601-headless.foxtrot-rebalance-20260911-041601.svc.cluster.local:6379,redis-20260911-041601-1.redis-20260911-041601-headless.foxtrot-rebalance-20260911-041601.svc.cluster.local:6379",
+    "redis.pool.max" : "100"
+  },
+  "target" : 2000,
+  "nodes" : 1,
+  "worker" : 1,
+  "table" : "usertable",
+  "columnfamily" : "family",
+  "phase" : "load",
+  "asyncmode" : true,
+  "counts" : {
+    "recordcount" : 1000000,
+    "warmupcount" : 0,
+    "operationcount" : 1000000,
+    "insertcount" : 1000000,
+    "insertstart" : 0,
+    "fieldcount" : 10,
+    "fieldlength" : 100,
+    "readallfields" : true,
+    "writeallfields" : true
+  },
+  "proportions" : {
+    "readproportion" : 0.8,
+    "updateproportion" : 0.2,
+    "insertproportion" : 0,
+    "scanproportion" : 0,
+    "readmodifywriteproportion" : 0
+  },
+  "distributions" : {
+    "requestdistribution" : "uniform",
+    "insertorder" : "hashed",
+    "fieldlengthdistribution" : "constant",
+    "fieldlengthhistogram" : "hist.txt",
+    "scanlengthdistribution" : "uniform",
+    "maxscanlength" : 1000,
+    "hotspotdatafraction" : 0.2,
+    "hotspotopnfraction" : 0.8,
+    "exponentialpercentile" : 95,
+    "exponentialfrac" : 0.8571428571
+  },
+  "loadgeneration" : {
+    "schedulingmethod" : "adaptive",
+    "interrequesttimedistribution" : "constant"
+  },
+  "logmeasurements" : false,
+  "logjvmstats" : false
+}

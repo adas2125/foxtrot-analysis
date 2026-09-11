@@ -1,0 +1,150 @@
+[
+  {
+    "pod": "nosqlmark-client",
+    "uid": "bb932264-e02a-4de9-b12d-3c37545f67d7",
+    "node": "i-063b793db694be24c",
+    "containers": [
+      {
+        "name": "client",
+        "imageID": "docker.io/library/maven@sha256:5ff6b54049b2ff49c8dbf6bd44dfa2242a2b7a6b9846c8963286226ba72221ec",
+        "restartCount": 0
+      }
+    ]
+  },
+  {
+    "pod": "redis-20260911-041601-0",
+    "uid": "1d9be5d5-ec4c-4c47-9144-38cdc4512ef5",
+    "node": "i-091443c764376d8ba",
+    "containers": [
+      {
+        "name": "redis",
+        "imageID": "docker.io/library/redis@sha256:6461ca4ac0c5c9d81d53685c3bf76aa81f464a9de6cf3a97b80a1da8d1bb1de4",
+        "restartCount": 0
+      },
+      {
+        "name": "redis-exporter",
+        "imageID": "docker.io/bitnamilegacy/redis-exporter@sha256:c231d55f0edb2719e23a26c3a4bbbc8867ecda5e171bcd308b11c9bb9ed49e30",
+        "restartCount": 0
+      }
+    ]
+  },
+  {
+    "pod": "redis-20260911-041601-1",
+    "uid": "7ce56fdb-8146-4d8e-aa07-40fc8cf244a3",
+    "node": "i-0c4d45abf9869abf0",
+    "containers": [
+      {
+        "name": "redis",
+        "imageID": "docker.io/library/redis@sha256:6461ca4ac0c5c9d81d53685c3bf76aa81f464a9de6cf3a97b80a1da8d1bb1de4",
+        "restartCount": 0
+      },
+      {
+        "name": "redis-exporter",
+        "imageID": "docker.io/bitnamilegacy/redis-exporter@sha256:c231d55f0edb2719e23a26c3a4bbbc8867ecda5e171bcd308b11c9bb9ed49e30",
+        "restartCount": 0
+      }
+    ]
+  },
+  {
+    "pod": "redis-20260911-041601-2",
+    "uid": "5769d30d-f566-4e5c-8a9e-53d18d196221",
+    "node": "i-00ecc4734204a6c6e",
+    "containers": [
+      {
+        "name": "redis",
+        "imageID": "docker.io/library/redis@sha256:6461ca4ac0c5c9d81d53685c3bf76aa81f464a9de6cf3a97b80a1da8d1bb1de4",
+        "restartCount": 0
+      },
+      {
+        "name": "redis-exporter",
+        "imageID": "docker.io/bitnamilegacy/redis-exporter@sha256:c231d55f0edb2719e23a26c3a4bbbc8867ecda5e171bcd308b11c9bb9ed49e30",
+        "restartCount": 0
+      }
+    ]
+  },
+  {
+    "pod": "redis-20260911-041601-3",
+    "uid": "fdbf532c-370d-4f88-afc3-e86a331ee7a8",
+    "node": "i-0f4a2ec2693d23bd5",
+    "containers": [
+      {
+        "name": "redis",
+        "imageID": "docker.io/library/redis@sha256:6461ca4ac0c5c9d81d53685c3bf76aa81f464a9de6cf3a97b80a1da8d1bb1de4",
+        "restartCount": 0
+      },
+      {
+        "name": "redis-exporter",
+        "imageID": "docker.io/bitnamilegacy/redis-exporter@sha256:c231d55f0edb2719e23a26c3a4bbbc8867ecda5e171bcd308b11c9bb9ed49e30",
+        "restartCount": 0
+      }
+    ]
+  },
+  {
+    "pod": "redis-20260911-041601-4",
+    "uid": "a22f1b2e-b94f-4f40-9af3-562d8bb8e0b6",
+    "node": "i-0311cb8df75ea4f36",
+    "containers": [
+      {
+        "name": "redis",
+        "imageID": "docker.io/library/redis@sha256:6461ca4ac0c5c9d81d53685c3bf76aa81f464a9de6cf3a97b80a1da8d1bb1de4",
+        "restartCount": 0
+      },
+      {
+        "name": "redis-exporter",
+        "imageID": "docker.io/bitnamilegacy/redis-exporter@sha256:c231d55f0edb2719e23a26c3a4bbbc8867ecda5e171bcd308b11c9bb9ed49e30",
+        "restartCount": 0
+      }
+    ]
+  },
+  {
+    "pod": "redis-20260911-041601-5",
+    "uid": "669f30b8-d7d9-4427-901f-8f2ec8bcfbc2",
+    "node": "i-02e0006573b905dca",
+    "containers": [
+      {
+        "name": "redis",
+        "imageID": "docker.io/library/redis@sha256:6461ca4ac0c5c9d81d53685c3bf76aa81f464a9de6cf3a97b80a1da8d1bb1de4",
+        "restartCount": 0
+      },
+      {
+        "name": "redis-exporter",
+        "imageID": "docker.io/bitnamilegacy/redis-exporter@sha256:c231d55f0edb2719e23a26c3a4bbbc8867ecda5e171bcd308b11c9bb9ed49e30",
+        "restartCount": 0
+      }
+    ]
+  },
+  {
+    "pod": "redis-20260911-041601-6",
+    "uid": "e9b36c4b-d87d-4a06-bb99-1625d84fb761",
+    "node": "i-01a5857cf7598b7f8",
+    "containers": [
+      {
+        "name": "redis",
+        "imageID": "docker.io/library/redis@sha256:6461ca4ac0c5c9d81d53685c3bf76aa81f464a9de6cf3a97b80a1da8d1bb1de4",
+        "restartCount": 0
+      },
+      {
+        "name": "redis-exporter",
+        "imageID": "docker.io/bitnamilegacy/redis-exporter@sha256:c231d55f0edb2719e23a26c3a4bbbc8867ecda5e171bcd308b11c9bb9ed49e30",
+        "restartCount": 0
+      }
+    ]
+  },
+  {
+    "pod": "redis-20260911-041601-7",
+    "uid": "f4e448b7-cf27-4848-9963-dccfca562722",
+    "node": "i-0188da2a87c4380bc",
+    "containers": [
+      {
+        "name": "redis",
+        "imageID": "docker.io/library/redis@sha256:6461ca4ac0c5c9d81d53685c3bf76aa81f464a9de6cf3a97b80a1da8d1bb1de4",
+        "restartCount": 0
+      },
+      {
+        "name": "redis-exporter",
+        "imageID": "docker.io/bitnamilegacy/redis-exporter@sha256:c231d55f0edb2719e23a26c3a4bbbc8867ecda5e171bcd308b11c9bb9ed49e30",
+        "restartCount": 0
+      }
+    ]
+  }
+]

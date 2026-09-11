@@ -1,0 +1,30 @@
+apiVersion: cache.example.com/v1
+kind: RedisCluster
+metadata:
+  creationTimestamp: "2026-09-11T06:00:33Z"
+  generation: 2
+  name: redis-20260911-055959
+  namespace: foxtrot-rebalance-20260911-055959
+  resourceVersion: "15947863"
+  uid: d48c3a20-aef7-45c6-8e02-21d17b11eadc
+spec:
+  autoScaleEnabled: false
+  cpuThreshold: 10
+  cpuThresholdLow: 1
+  existingCluster: false
+  manageStatefulSet: true
+  masters: 3
+  memoryThreshold: 70
+  memoryThresholdLow: 30
+  metricsQueryInterval: 15
+  minMasters: 3
+  prometheusURL: http://prometheus-operated.monitoring.svc:9090
+  redisVersion: "7.2"
+  replicasPerMaster: 1
+  reshardTimeoutSeconds: 600
+  scaleCooldownSeconds: 3600
+status:
+  currentMasters: 0
+  currentReplicas: 0
+  initialized: true
+  standbyPod: redis-20260911-055959-6
